@@ -23,8 +23,10 @@
         font-family: "Lucida Handwriting", fantasy;
       }
       
-      h3{
+      #playlist-title{
         color: #225aa3;
+        font-size: 25px;
+        font-family: cursive;
       }
       
       p{
@@ -51,16 +53,19 @@
       }
       .song-titles{
         color: #225aa3;
-        
+        font-size: 20px;
       }
-      a:hover{
-        
+      .song-titles a{
+        text-decoration: none;
+      }
+      .song-titles a:hover{
+        color: #c594d2;
       }
     </style>
   </head>
   <body>
     <h1>Welcome &lt3 </h1>
-    <h2>you have reached brianna's home page</h2>
+    <h2>you have reached Brianna's home page</h2>
     <div class="hello-kitty-gif">
       <img src="hello-kitty-2.gif" alt="Hello Kitty waving">
     </div>
@@ -69,7 +74,7 @@
       <img src="disco-ball.gif" class="disco" alt="disco ball spinning">
       <img src="disco-ball.gif" class="disco" alt="disco ball spinning">
     </div>
-	<h3>What is Brianna listening to?</h3>
+	<h3 id="playlist-title">What is Brianna listening to?</h3>
     <img id="playlist-icon" src="music-icon.jpeg" alt="music play button">
     <h3 class="song-titles">
       <a href="https://open.spotify.com/track/4cQAhjxynTUlhVUJN5yhUb" target="_blank">Mamacita - Chase Atlantic</a><br>
